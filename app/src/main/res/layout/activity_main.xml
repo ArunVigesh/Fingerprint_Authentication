@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="32dp"
+        android:textSize="56sp"
+        android:padding="8dp"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint Authentication" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:layout_margin="48dp"
+        android:padding="8dp"
+        android:background="#fff"
+        android:textSize="32sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#123456"
+        android:layout_height="wrap_content"
+        android:text="Authenticate" />
+</RelativeLayout>
